@@ -1,0 +1,31 @@
+[
+    {
+        "id":"1",
+        "name":"Indi Tandoori Paneer & Peppy Paneer Combo",
+        "image":"https://images.dominos.co.in/4623-CMB1210.jpg",
+        "description":"Med Indi Tandoori Paneer + Peppy Paneer + 2 Garlic Bread +2 Pepsi",
+        "price":"1090"
+    },
+    {
+        "id":"2",
+        "name":"Indi Tandoori Paneer & Peppy Paneer Combo",
+        "image":"https://images.dominos.co.in/4623-CMB1210.jpg",
+        "description":"Med Indi Tandoori Paneer + Peppy Paneer + 2 Garlic Bread +2 Pepsi",
+        "price":"1090"
+    },
+    {
+        "id":"3",
+        "name":"Indi Tandoori Paneer & Peppy Paneer Combo",
+        "image":"https://images.dominos.co.in/4623-CMB1210.jpg",
+        "description":"Med Indi Tandoori Paneer + Peppy Paneer + 2 Garlic Bread +2 Pepsi",
+        "price":"1090"
+    },
+    {
+        "id":"4",
+        "name":"Indi Tandoori Paneer & Peppy Paneer Combo",
+        "image":"https://images.dominos.co.in/4623-CMB1210.jpg",
+        "description":"Med Indi Tandoori Paneer + Peppy Paneer + 2 Garlic Bread +2 Pepsi",
+        "price":"1090"
+    }
+    
+]
