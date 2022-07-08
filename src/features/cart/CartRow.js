@@ -8,7 +8,7 @@ const CartRow = ({ item }) => {
     const { id, name, description, image, totalPrice, quantity } = item;
     const dispatch = useDispatch()
     return (
-        <div>
+        <div className='px-2'>
             <div className='d-flex'>
                 <div className='me-2'>
                     <img width={100} src={image} alt='' />
@@ -18,7 +18,7 @@ const CartRow = ({ item }) => {
                     <p>{description}</p>
                 </div>
             </div>
-            <div className='d-flex justify-content-between align-items-center'>
+            <div className='d-flex justify-content-between align-items-center mt-3'>
                 <div>
                     <ButtonGroup aria-label="Basic example">
                         {
