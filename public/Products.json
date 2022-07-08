@@ -8,24 +8,24 @@
     },
     {
         "id":"2",
-        "name":"Indi Tandoori Paneer & Peppy Paneer Combo",
-        "image":"https://cdn.pixabay.com/photo/2017/02/15/10/57/pizza-2068272__480.jpg",
-        "description":"Med Indi Tandoori Paneer + Peppy Paneer + 2 Garlic Bread +2 Pepsi",
-        "price":"1090"
+        "name":"Meal for 4: Chicken Dominator Combo",
+        "image":"https://thumbs.dreamstime.com/b/pizza-rustic-italian-mozzarella-cheese-basil-leaves-35669930.jpg",
+        "description":"Large Chicken Dominator + 2 Garlic Bread + 2 Pepsi",
+        "price":"1051"
     },
     {
         "id":"3",
-        "name":"Indi Tandoori Paneer & Peppy Paneer Combo",
-        "image":"https://cdn.pixabay.com/photo/2017/02/15/10/57/pizza-2068272__480.jpg",
-        "description":"Med Indi Tandoori Paneer + Peppy Paneer + 2 Garlic Bread +2 Pepsi",
-        "price":"1090"
+        "name":"Chicken Keema Paratha Pizza",
+        "image":"https://images.pexels.com/photos/3762075/pexels-photo-3762075.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "description":"Flavourful & meaty chicken keema paratha and goodness of cheesy pizza coming together in an epic crossover!",
+        "price":"249"
     },
     {
         "id":"4",
-        "name":"Indi Tandoori Paneer & Peppy Paneer Combo",
-        "image":"https://cdn.pixabay.com/photo/2017/02/15/10/57/pizza-2068272__480.jpg",
-        "description":"Med Indi Tandoori Paneer + Peppy Paneer + 2 Garlic Bread +2 Pepsi",
-        "price":"1090"
+        "name":"Paneer Paratha Pizza",
+        "image":"https://images.pexels.com/photos/2619970/pexels-photo-2619970.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "description":"An epic fusion of paratha and pizza with melting cheese & soft paneer fillings to satisfy all your indulgent",
+        "price":"209"
     }
     
 ]

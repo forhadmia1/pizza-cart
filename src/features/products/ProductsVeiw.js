@@ -14,7 +14,7 @@ const ProductsVeiw = () => {
     }, [])
 
     return (
-        <div >
+        <div className='my-3'>
             <Row xs={1} md={2} className="g-4">
                 {
                     products.map(product => <ProductCard

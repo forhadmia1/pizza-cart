@@ -24,7 +24,7 @@ const CartRow = ({ item }) => {
                         {
                             quantity == 1 ? <Button variant="secondary" onClick={() => dispatch(deleteItem(id))}><MdDeleteOutline /></Button> : <Button variant="secondary" onClick={() => dispatch(decreseQuantity(id))}>-</Button>
                         }
-                        <span className='px-3'>{quantity}</span>
+                        <span className='px-3 border border-2 fw-bold pt-1'>{quantity}</span>
                         <Button variant="secondary" onClick={() => dispatch(increseQuantity(id))}>+</Button>
                     </ButtonGroup>
                 </div>

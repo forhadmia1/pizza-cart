@@ -7,7 +7,7 @@ const ProductCard = ({ product }) => {
     const { id, name, image, description, price } = product;
     const dispatch = useDispatch()
     return (
-        <Col>
+        <Col className='d-flex justify-content-center'>
             <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={image} />
                 <Card.Body>

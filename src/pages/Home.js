@@ -10,7 +10,7 @@ const Home = () => {
                 <Col md={8}>
                     <ProductsVeiw />
                 </Col>
-                <Col md={4}>
+                <Col md={4} className="d-none d-md-block">
                     <CartView />
                 </Col>
             </Row>

@@ -15,7 +15,7 @@ const CartView = () => {
     }
 
     return (
-        <div >
+        <div className='mt-3'>
             <div className='d-flex flex-column gap-4'>
                 {
                     cart.map(item => <CartRow
@@ -25,7 +25,7 @@ const CartView = () => {
                 }
             </div>
             <div className='bg-danger p-2 mt-3'>
-                <h4 className='text-center'>Subtotal:{total}</h4>
+                <h4 className='text-center'>Subtotal: ${total}</h4>
             </div>
         </div>
     );
