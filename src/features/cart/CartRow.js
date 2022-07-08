@@ -1,8 +1,12 @@
 import React from 'react';
 import { Button, ButtonGroup } from 'react-bootstrap';
+import { useDispatch } from 'react-redux';
+import { increseQuantity, decreseQuantity, deleteItem } from './CartSlice';
+import { MdDeleteOutline } from 'react-icons/md'
 
 const CartRow = ({ item }) => {
-    const { id, name, description, image, price, quantity } = item;
+    const { id, name, description, image, totalPrice, quantity } = item;
+    const dispatch = useDispatch()
     return (
         <div>
             <div className='d-flex'>
@@ -17,12 +21,14 @@ const CartRow = ({ item }) => {
             <div className='d-flex justify-content-between align-items-center'>
                 <div>
                     <ButtonGroup aria-label="Basic example">
-                        <Button variant="secondary">-</Button>
+                        {
+                            quantity == 1 ? <Button variant="secondary" onClick={() => dispatch(deleteItem(id))}><MdDeleteOutline /></Button> : <Button variant="secondary" onClick={() => dispatch(decreseQuantity(id))}>-</Button>
+                        }
                         <span className='px-3'>{quantity}</span>
-                        <Button variant="secondary">+</Button>
+                        <Button variant="secondary" onClick={() => dispatch(increseQuantity(id))}>+</Button>
                     </ButtonGroup>
                 </div>
-                <h5>${price}</h5>
+                <h5>${totalPrice}</h5>
             </div>
             <hr />
         </div>
